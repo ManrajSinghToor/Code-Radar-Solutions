@@ -3,5 +3,6 @@
 int main(){
     int n;
     scanf("%f",&n);
+    
     printf("%f\n",n);
 }
