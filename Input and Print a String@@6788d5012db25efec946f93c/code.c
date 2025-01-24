@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    char ch;
-    scanf("%6s",&ch);
-    printf("%6s",ch);
+    char str[100];
+    scanf("%c",&str);
+    printf("%c",str);
     return 0;
 }
