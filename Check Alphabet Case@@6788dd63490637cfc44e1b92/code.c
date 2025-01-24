@@ -1,13 +1,11 @@
 #include <stdio.h>
 int main() {
-    int a;
-    scanf("%d",&a);
-    int c = "abcdefghijklmnopqrstupwxyz";
-    int d = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    if(a == c){
-        printf("Uppercase");
-    }else if(a == d){
+    char a;
+    scanf("%c",&a);
+    if(a >= 'a' && a <= 'z'){
         printf("Lowercase");
+    }else if(a >= 'A'|| a<='Z'){
+        printf("Uppercase");
     }else{
         printf("Not an alphabet");}
     return 0;
