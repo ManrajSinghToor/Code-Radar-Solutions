@@ -2,17 +2,10 @@
 int main() {
     char ch; 
     scanf("%c",&ch);   
-    char a = "bcdfghjklmnpqrstvwxyz";
-    char b = "aeiou";
-    char c = "1234567890";
-    char d = "@#$%&*!";
-    if (ch == a){
+    if(ch == "aeiou"){
         printf("Vowel");
-    }else if(ch == b){
-        printf("Consonant");
-    }else if(ch == c){
-        printf("Digit");
     }else{
-        printf("Special Character");}
+        printf("Consonant");
+    }
     return 0;
 }
