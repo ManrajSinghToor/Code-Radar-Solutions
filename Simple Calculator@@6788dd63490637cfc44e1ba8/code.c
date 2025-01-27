@@ -10,8 +10,8 @@ int main() {
     }else if(c == '*'){
         printf("%d",a*b);
     }else{
-        if (a == 0){
-            printf("Eroor");
+        if (b == 0){
+            printf("Error");
         }else{
         printf("%d",a/b);}
         
