@@ -13,10 +13,8 @@ int main() {
         if (b == 0){
             printf("Error");
         }else{
-        printf("%d",a/b);}
+        printf("%d",a/b);}}
     else{
         printf("Error");
-    }
-        
     }return 0;
 }
