@@ -10,6 +10,10 @@ int main() {
     }else if(c == '*'){
         printf("%d",a*b);
     }else{
-        printf("%d",a/b);
+        if (b == 0){
+            printf("Eroor");
+        }else{
+        printf("%d",a/b);}
+        
     }return 0;
 }
