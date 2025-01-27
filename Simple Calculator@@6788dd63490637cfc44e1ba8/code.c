@@ -4,9 +4,9 @@ int main() {
     scanf("%d %d %d",&a,&b,&c);
     if(c == '+'){
         printf("%d",a+b);
-    }else if{
+    }else if(c == '-'){
         printf("%d",a-b);
-    }else if{
+    }else if(c == '*'){
         printf("%d",a*b);
     }else{
         printf("%d",a/b);
