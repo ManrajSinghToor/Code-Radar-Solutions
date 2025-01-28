@@ -3,7 +3,7 @@ int main() {
     char a,b;
     scanf("%c %c",&a,&b);
     if(a == "Hello World"){
-        printf("Hello and World");
+        printf("You entered: Hello and World");
     }else{
-    printf("C and Programming");}
+    printf("You entered: C and Programming");}
     return 0;}
