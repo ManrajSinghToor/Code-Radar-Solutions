@@ -2,8 +2,5 @@
 int main() {
     char a,b;
     scanf("%c %c",&a,&b);
-    if(a == "Hello World"){
-        printf("You entered: Hello and World");
-    }else{
-    printf("You entered: C and Programming");}
+    printf("You entered: %c and %c");
     return 0;}
