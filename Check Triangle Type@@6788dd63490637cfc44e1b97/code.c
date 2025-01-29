@@ -9,7 +9,7 @@ int main() {
     }else if(a!=b && b!=c){
         printf("scalene");
     }else{
-        printf("other triangle")
+        printf("other triangle");
     }
     return 0;
 }
