@@ -26,7 +26,8 @@ int main() {
         case 11:printf("November\n");
         break;
         case 12:printf("December\n");
-        break
+        break;
+        default :printf("Nothing");
     }
     return 0;
 }
