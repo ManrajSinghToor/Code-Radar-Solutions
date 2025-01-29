@@ -9,8 +9,7 @@ int main() {
         printf("Vowel");
     }else if(ch == '1','2','3','4','5','6','7','8','9','0'){
         printf("digit");
-    }else
-    {
+    }else if(ch == '!','@','#','$','%','&','*','+'){
         printf("Special Character");
     }
     return 0;
