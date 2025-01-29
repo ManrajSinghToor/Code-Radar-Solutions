@@ -2,7 +2,7 @@
 int main() {
     char ch; 
     scanf("%c",&ch);  
-    if(ch == 'b','c','d','f','g','h','j','z'){
+    if(ch == 'b','c','d','f','g','h','j','k','l','m','z'){
         printf("Consonant")
     } 
     else if(ch == 'a','e','i','o','u'){
