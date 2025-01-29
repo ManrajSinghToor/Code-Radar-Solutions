@@ -14,7 +14,7 @@ int main() {
     }else if(n < 60){
         printf9('F');
     }else {
-        printf("Fail")
+        printf("Fail");
     }
     return 0;
 }
