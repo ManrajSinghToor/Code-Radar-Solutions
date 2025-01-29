@@ -12,7 +12,7 @@ int main() {
     }else if(n>=60 && n<70){
         printf('D');
     }else if(n < 60){
-        printf9('F');
+        printf('F');
     }else {
         printf("Fail");
     }
