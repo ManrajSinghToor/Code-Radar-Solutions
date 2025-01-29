@@ -6,8 +6,10 @@ int main() {
         printf("Equilateral");
     }else if(a==b!=c){
         printf("Isosceles");
-    }else {
+    }else if(a!=b && b!=c){
         printf("scalene");
+    }else{
+        printf("other triangle")
     }
     return 0;
 }
