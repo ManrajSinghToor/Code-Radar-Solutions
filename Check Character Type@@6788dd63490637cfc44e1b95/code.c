@@ -2,7 +2,7 @@
 int main() {
     char ch; 
     scanf("%c",&ch);   
-    if(ch == "a"){
+    if(ch == 'a' && ch == 'z'){
         printf("Vowel");
     }else{
         printf("Consonant");
