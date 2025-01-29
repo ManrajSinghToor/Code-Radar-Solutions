@@ -7,7 +7,7 @@ int main() {
     }else if(a==b!=c){
         printf("Isosceles");
     }else {
-        printf("Other Triangle")
+        printf("Other Triangle");
     }
     return 0;
 }
