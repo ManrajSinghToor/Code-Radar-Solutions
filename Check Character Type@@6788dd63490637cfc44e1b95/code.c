@@ -5,11 +5,13 @@ int main() {
     if(ch == 'a','i','e','o','u'){
         printf("Vowel"); } 
     else if(ch == 'b','c','d','f','g','h','j','k','l','m','z'){
-        printf("Consonant");} 
+        printf("Consonant");
     }else if(ch == '1','2','3','4','5','6','7','8','9','0'){
         printf("digit");
     }else if(ch == '!','@','#','$','%','&','*','+'){
         printf("Special Character");
+    }else {
+        printf("No")
     }
     return 0;
 }
