@@ -7,7 +7,7 @@ int main() {
 
     if(!(n1 > 0 && n2 > 0)){
         printf("True");
-    }else if{
+    }else {
         printf("False");
     }
     return 0;
