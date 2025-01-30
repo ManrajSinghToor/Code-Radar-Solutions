@@ -6,6 +6,5 @@ int main() {
         for(int j=1;j<=i,j++){
             printf("%d ",j);
         }
-    }
-    return 0;
+    }return 0;
 }
