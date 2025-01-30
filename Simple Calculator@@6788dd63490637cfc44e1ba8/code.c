@@ -15,6 +15,6 @@ int main() {
         }else{
         printf("%d",a/b);}}
     else{
-        printf("Error");
+        printf("Invalid Value");
     }return 0;
 }
