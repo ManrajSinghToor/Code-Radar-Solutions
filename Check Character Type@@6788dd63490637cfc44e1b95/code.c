@@ -11,7 +11,7 @@ int main() {
     }else if(ch == '!','@','#','$','%','&','*','+'){
         printf("Special Character");
     }else {
-        printf("No")
+        printf("No");
     }
     return 0;
 }
