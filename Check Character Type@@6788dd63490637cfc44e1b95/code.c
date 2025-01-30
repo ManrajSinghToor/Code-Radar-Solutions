@@ -8,7 +8,9 @@ int main() {
         printf("Digit");
     }else if(ch == '*'||ch=='%'||ch =='@'||ch =='!'||ch == '&'||ch == '$'||ch == '#'){
         printf("Special Character");
-    }else{
+    }else if (ch =='b'||ch == 'c'||ch=='d'||ch == 'f'||ch == 'z'){
         printf("Consonant");
+    }else{
+        printf("Not valid");
     }  return 0;
 }
