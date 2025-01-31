@@ -7,7 +7,7 @@ int main() {
             if(n % 2 == 0){
                 printf("*");
             }else{
-                printf("*");printf(" ");
+                printf(" ");printf("*");
             }
         }printf("\n");
     }
