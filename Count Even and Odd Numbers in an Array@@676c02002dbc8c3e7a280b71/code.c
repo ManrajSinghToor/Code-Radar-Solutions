@@ -2,12 +2,17 @@
 int main() {
     int n,arr[];
     scanf("%d %d",&n,&arr);
-    for(int i=0;i<=n;i++){
-        if(arr[i]%2 == 0){
-            printf("%d ",arr[i]);
+    int count_even;
+    int count_odd;
+    for(int i=0;i<n;i++){
+        if(arr[i] % 2 == 0){
+            count_even++;
+        }else if(arr[i] % 2 != 0){
+            count_odd++;
         }else{
-            printf("%d ",arr[i])
-        }printf("\n")
-    }
+            return 0;
+        }
+    }printf("%d",count_even);
+    printf("%d",count_odd);
     return 0;
 }
