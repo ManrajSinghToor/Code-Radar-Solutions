@@ -9,8 +9,6 @@ int main() {
             count_even++;
         }else if(arr[i] % 2 != 0){
             count_odd++;
-        }else{
-            ("");
         }
     }printf("%d ",count_even);
      printf("%d ",count_odd);
