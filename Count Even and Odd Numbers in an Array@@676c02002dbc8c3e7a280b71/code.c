@@ -12,7 +12,7 @@ int main() {
         }else{
             ("");
         }
-    }printf("%d",count_even);
-     printf("%d",count_odd);
+    }printf("%d ",count_even);
+     printf("%d ",count_odd);
     return 0;
 }
