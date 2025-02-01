@@ -7,7 +7,7 @@ int main() {
     for(int i=0;i<n;i++){
         if(arr[i] % 2 == 0){
             count_even++;
-        }else{
+        }else if(arr[i] % 2 !=0){
             count_odd++;
         }
     }printf("%d ",count_even);
