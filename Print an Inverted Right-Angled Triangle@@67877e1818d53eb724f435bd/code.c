@@ -13,7 +13,7 @@ int main() {
             printf("");
         }for(int p=1;p<=2*l-1;p++){
             printf("*");
-        }printf("\n");;
+        }printf("\n");
     }
     return 0;
 }
