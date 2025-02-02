@@ -8,8 +8,8 @@ int eve_odd(int arr[],int n){
         }else if(arr[i] % 2 != 0){
             count_odd++;
         }
-    }printf("%d\n",count_odd);
-    printf("%d ",count_even);
+    }printf("%d ",count_odd);
+    printf("%d\n",count_even);
 }
 int main() {
     int n,arr[n];
