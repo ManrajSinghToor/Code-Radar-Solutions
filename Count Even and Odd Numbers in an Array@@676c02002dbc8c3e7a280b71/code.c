@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int n,arr[n];
+    int n,arr[];
     scanf("%d %d",&n,&arr);
     int count_even;
     int count_odd;
