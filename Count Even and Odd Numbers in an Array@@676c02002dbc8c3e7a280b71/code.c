@@ -10,7 +10,7 @@ int main(){
         }else if(arr[i] % 2 != 0){
             count_odd++;
         }
-    }printf("%d ",count_odd);
-    printf("%d\n",count_even);
+    }printf("%d ",count_even);
+    printf("%d\n",count_odd);
     return 0;
 }
