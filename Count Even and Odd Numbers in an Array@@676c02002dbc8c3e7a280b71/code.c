@@ -14,6 +14,6 @@ int eve_odd(int arr[],int n){
 int main() {
     int n,arr[n];
     scanf("%d %d",&n,&arr);
-    eve_odd(arr,n)
+    eve_odd(arr,n);
     return 0;
 }
