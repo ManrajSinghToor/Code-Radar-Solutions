@@ -7,7 +7,7 @@ int countlen(char arr[]){
 }
 int main() {
     char word[100];
-    gets("%s",&word);
+    scanf("%s",&word);
     countlen(word);
     return 0;
 }
