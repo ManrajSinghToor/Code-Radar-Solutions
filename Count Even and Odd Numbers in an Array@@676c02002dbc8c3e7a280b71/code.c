@@ -1,7 +1,10 @@
 #include <stdio.h>
 int main(){
-    int n,arr[n];
-    scanf("%d %d",&n,&arr);
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);}
     int count_even=0;
     int count_odd=0;
     for(int i=0;i<n;i++){
