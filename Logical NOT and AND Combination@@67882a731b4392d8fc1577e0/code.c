@@ -6,13 +6,13 @@ int main() {
 
 
     if(!(n1 >= 0 && n2 >= 0)){
-        printf("True");
-    }else if(n1 >= 0 && n2<=0){
         printf("False");
-    }else if(n1 <=0 && n2 >= 0){
+    }else if(!(n1 >= 0 && n2<=0)){
+        printf("False");
+    }else if(!(n1 <=0 && n2 >= 0)){
         printf("False");
     }else{
-        printf("False");
+        printf("True");
     }
     return 0;
 }
