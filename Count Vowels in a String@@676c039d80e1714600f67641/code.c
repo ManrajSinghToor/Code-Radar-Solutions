@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    char arr[];
+    char arr[100];
     scanf("%s",&arr);
     int count = 0;
     if(arr[i]== "aieou"||arr[i]=="AEIOU"){
