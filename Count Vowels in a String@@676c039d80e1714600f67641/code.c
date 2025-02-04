@@ -7,7 +7,7 @@ int main() {
         count++;
         printf("%d",count);
     }else{
-        printf('n');
+        printf("NO");
     }
     return 0;
 }
