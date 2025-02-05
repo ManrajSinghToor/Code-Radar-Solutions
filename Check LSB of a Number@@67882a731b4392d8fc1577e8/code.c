@@ -4,9 +4,11 @@ int main() {
     scanf("%d",&n);
     int c = n & 1;
     if( c == 1){
-    printf("Set");}
-    else{
+        printf("Set");}
+    else if(c != 1){
         printf("Not set");
+    }else {
+        printf("No");
     }
      return 0;
 }
