@@ -2,7 +2,9 @@
 int main() {
     int n;
     scanf("%d",&n);
-    int c = n & 1;
-    printf("%d",c);
-    return 0;
+    if(int c = n & 1){
+        printf("Set");
+    }else{
+    printf("Not Set");
+}    return 0;
 }
