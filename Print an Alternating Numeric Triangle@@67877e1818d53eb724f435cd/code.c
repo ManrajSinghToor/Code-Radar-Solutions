@@ -16,8 +16,8 @@ int main() {
                 }else{
                     printf("1 ");
                 }
-            }printf("\n");
-        }
+            }
+        }printf("\n");
     }
     return 0;
 }
