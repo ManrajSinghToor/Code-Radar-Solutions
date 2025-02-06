@@ -3,11 +3,11 @@ int main() {
     char arr[100];
     scanf("%s",&arr);
     int count = 0;
-    if(arr[i]== "a"||"e"||"i"||"o"||"u"||arr[i]=="A"||"E"||"I"||"O"||"U"){
+    if(arr[i] == "aeiou" || arr[i] == "AEIOU"){
         count++;
         printf("%d",count);
     }else{
-        printf("NO");
+        printf("No");
     }
     return 0;
 }
