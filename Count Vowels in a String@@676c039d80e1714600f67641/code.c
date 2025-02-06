@@ -1,13 +1,22 @@
 #include <stdio.h>
+#include <string.h>
+
+char* welcome() {
+    return "Welcome to Code Radar!";
+}
+
 int main() {
-    char arr[100];
-    scanf("%s",&arr);
-    int count = 0;
-    if(arr[i] == "aeiou" || arr[i] == "AEIOU"){
-        count++;
-        printf("%d",count);
-    }else{
-        printf("No");
+    char str[99];
+    scanf("%98[^\n]",&str);
+    int vsize = 0;
+    while(str[vsize]){
+        if(str[vsize] == 'A' || str[vsize] == 'E' || str[vsize] =='I' || str[vsize] =='O' || str[vsize] == 'U'){
+            vsize++;
+        }
+        else{
+            vsize = vsize + 0;
+        }
     }
+    printf("%d",vsize-1);
     return 0;
 }
