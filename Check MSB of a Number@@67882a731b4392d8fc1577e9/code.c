@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
-    unsigned int n;
-    scanf("%u",&n);
+    int n;
+    scanf("%d",&n);
     if(n & 1){
         printf("Not Set");
     }else{
