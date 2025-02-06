@@ -13,7 +13,7 @@ int main() {
         for(int m=1;m<=n-l;m++){  
         }
         for(int p=1;p<=2*(n-l)-1;p++){
-            printf("*");
+            printf("* ");
         }printf("\n");
     }
     return 0;
