@@ -2,7 +2,6 @@
 
 int main() {
     int num;
-    printf("Enter an integer: ");
     scanf("%d", &num);
 
     int msb = num & (1 << (sizeof(int) * 8 - 1));
