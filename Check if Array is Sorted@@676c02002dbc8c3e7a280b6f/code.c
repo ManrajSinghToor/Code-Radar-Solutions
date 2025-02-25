@@ -1,6 +1,6 @@
 // Your code here...
 #include<stdio.h>
-void srtarr(int arr[],int n){
+int srtarr(int arr[],int n){
     for (int i = 0; i < n-1; i++) {
         if (arr[i] > arr[i+1]) {
             return false;
