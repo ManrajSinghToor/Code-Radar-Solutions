@@ -1,4 +1,5 @@
 // Your code here...
+#include<stdio.h>
 void revarr(int arr[],int n){
     int end = n-1;
     for(int i=0;i<end;i++){
