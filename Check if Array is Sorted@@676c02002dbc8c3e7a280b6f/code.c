@@ -17,7 +17,7 @@ int main(){
     int arr[n];
     for(int i = 1;i < n;i++){
         scanf("%d",&arr[i]);
-    }if(arr == srtarr){
+    }if(srtarr(arr,n)){
         printf("Sorted");
     }else{
         printf("Not Sorted");
