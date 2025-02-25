@@ -13,12 +13,13 @@ void srtarr(int arr[],int n){
 }
 int main(){
     int n;
-    scanf("%d\n",&n);
+    scanf("%d",&n);
     int arr[n];
     for(int i = 1;i < n;i++){
         scanf("%d",&arr[i]);
-    }srtarr(arr,n);
-    for(int i=0;i<n;i++){
-        printf("%d\n",arr[i]);
-    }return 0;
+    }if(arr[i] == srtarr){
+        printf("Sorted");
+    }else{
+        printf("Not Sorted");
+    }
 }
