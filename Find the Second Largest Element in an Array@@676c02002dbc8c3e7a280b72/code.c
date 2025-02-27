@@ -13,10 +13,6 @@ int main(){
     int arr[n];
     for(int i=1;i<n+1;i++){
         scanf("%d ",&arr);
-    }if(sotarr(arr,n)){
-        printf("%d",arr[n-3]);
-    }else{
-        printf("NO");
-    }
-
+    }sotarr(arr,n);
+     printf("%d",arr[n-3]);
 }
