@@ -1,6 +1,6 @@
 // Your code here...
 #include <stdio.h>
-int is_prime(int n){  
+int is_prime(int arr[],int n){  
     if (n <= 1){
         return 0;
     }
