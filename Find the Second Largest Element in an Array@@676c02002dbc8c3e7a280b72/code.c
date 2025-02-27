@@ -15,7 +15,7 @@ int main(){
         scanf("%d ",&arr);
     }
 if(sotarr(arr,n)){
-    printf("%d",arr[-i-1]);
+    printf("%d",arr[-2]);
 }else{
     printf("NO");
 }
