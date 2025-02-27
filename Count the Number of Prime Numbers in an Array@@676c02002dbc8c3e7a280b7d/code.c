@@ -1,18 +1,18 @@
 // Your code here...
 #include <stdio.h>
-int is_prime(int arr[],int n){
-    int count = 0;  
+int is_prime(int arr[],int n){  
     if(n <= 1){
         return 0;
     }else{
         for(int i = 2;i <= n / 2; i++){
             if(n % i == 0){
-                count++;
+                return 0;
             }
         }
-    }printf("%d",count);  
+    }return 1;
 }
 int main(){
+    int count = 0;
     int n;
     scanf("%d\n",&n);
     int arr[n];
@@ -22,5 +22,5 @@ int main(){
         count++;
     }else{
         printf("No");
-    }
+    }printf("%d",count);
 }
