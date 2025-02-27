@@ -11,12 +11,12 @@ int main(){
     int n;
     scanf("%d\n",&n);
     int arr[n];
-    for(int i=0;i<n+1;i++){
+    for(int i=1;i<n+1;i++){
         scanf("%d ",&arr);
+    }if(sotarr(arr,n)){
+        printf("%d",arr[-n-1]);
+    }else{
+        printf("NO");
     }
-if(sotarr(arr,n)){
-    printf("%d",arr[-2]);
-}else{
-    printf("NO");
-}
+
 }
