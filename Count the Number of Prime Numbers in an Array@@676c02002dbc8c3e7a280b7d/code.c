@@ -21,6 +21,6 @@ int main(){
     if(is_prime(arr,n)){
         count++;
     }else{
-        printf("0");
+        printf("No");
     }printf("%d",count);
 }
