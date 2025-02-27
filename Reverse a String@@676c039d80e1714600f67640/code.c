@@ -2,6 +2,7 @@
 
 int main() {
     char st[100];
+    int n;
     scanf("%s",&st);
     for(int i=0;i<n/2;i++){
     int first = st[i];
