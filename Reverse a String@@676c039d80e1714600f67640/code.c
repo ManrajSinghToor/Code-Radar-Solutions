@@ -4,7 +4,7 @@ int main() {
     int n;
     char st[n];
     scanf("%s",&st);
-    for(int i=0;i<n/2;i++){
+    for(int i=0;i<n;i++){
     int first = st[i];
     int second = st[n-i-1];
     first = second;
