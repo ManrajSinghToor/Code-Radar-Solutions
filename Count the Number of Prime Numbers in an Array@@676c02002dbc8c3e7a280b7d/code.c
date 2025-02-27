@@ -14,7 +14,7 @@ int is_prime(int arr[],int n){
 int main(){
     int n;
     int count = 0;
-    scanf("%d\n"&n);
+    scanf("%d\n",&n);
     int arr[n];
     for(int i=0;i<n+1;i++){
     scanf("%d ",&arr);}
