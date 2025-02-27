@@ -2,7 +2,7 @@
 #include<stdio.h>
 int srtarr(int arr[],int n){
     for (int i = 0; i < n-1; i++) {
-        if (arr[i] >= arr[i+1]) {
+        if (arr[i] > arr[i+1]) {
             return 0;
         }
     }
@@ -13,7 +13,7 @@ int main(){
     scanf("%d\n",&n);
     int arr[n];
     for(int i = 1;i < n+1;i++){
-        scanf("%d ",&arr[i]);
+        scanf("%d\n",&arr[i]);
     }if(srtarr(arr,n)){
         printf("Sorted");
     }else{
