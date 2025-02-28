@@ -16,5 +16,5 @@ int main(){
         scanf("%d ",&arr);
     }
     maxarr(arr,n);
-    printf("%d %d",arr[0],arr[-1])
+    printf("%d %d",arr[0],arr[-1]);
 }
