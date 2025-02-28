@@ -8,7 +8,7 @@ int main() {
         if(str == "AEIOU"||str == "aeiou"){
             count++;
         }else{
-            printf(" ")
+            printf(" ");
         }
     }   
     return 0;
