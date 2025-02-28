@@ -4,12 +4,12 @@ int main() {
     char str[99];
     fgets(str,99,stdin);
     int count = 0;
-    if(str == "AEIOU"){
-        count++;
-    }else if(str == "aeoiu"){
-        count++;
-    }else{
-        printf("Invalid");
-    }printf("%d",count);
+    for(int i=0;i<'\0';i++){
+        if(str == "AEIOU"||str == "aeiou"){
+            count++;
+        }else{
+            printf(" ")
+        }
+    }   
     return 0;
 }
