@@ -10,7 +10,7 @@ int maxarr(int arr[],int n){
 }
 int main(){
     int n;
-    int i=0
+    int i=0;
     scanf("%d\n",&n);
     int arr[n];
     for(int i =1;i<n+1;i++){
