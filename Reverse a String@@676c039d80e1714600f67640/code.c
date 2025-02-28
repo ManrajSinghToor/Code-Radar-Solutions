@@ -11,7 +11,7 @@ int main() {
     first = second;
     second = third;
         }for(int i=1;i<=n;i++){
-        printf("%d",first+second);
+        printf("%d",st[i]);
     }
 
     return 0;
