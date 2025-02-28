@@ -4,9 +4,9 @@ int main() {
     char str[99];
     fgets(str,99,stdin);
     int count = 0;
-    if(str == 'A'||str == 'E'||str == 'I'||str == 'O'||str == 'U'){
+    if(str == "AEIOU"){
         count++;
-    }else if(str == 'a'||str == 'e'||str == 'o'||str == 'i'||str == 'u'){
+    }else if(str == "aeoiu"){
         count++;
     }else{
         printf("Invalid");
