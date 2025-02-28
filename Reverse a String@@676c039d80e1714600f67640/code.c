@@ -10,8 +10,8 @@ int main() {
     int third = first;
     first = second;
     second = third;
-        }for(int i=0;i<n;i++){
-        printf("%d",st[i]);
+        }for(int i=1;i<=n;i++){
+        printf("%d",first+second);
     }
 
     return 0;
