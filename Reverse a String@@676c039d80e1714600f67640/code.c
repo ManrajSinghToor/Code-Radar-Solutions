@@ -7,6 +7,8 @@ int main() {
     for(int i=0;i<n;i++){
     int first = st[i];
     int second = st[n-i-1];
+    int third;
+    third = first;
     first = second;
     second = first;
     }for(int i=0;i<n;i++){
