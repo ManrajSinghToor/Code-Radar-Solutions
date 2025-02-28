@@ -14,5 +14,5 @@ int main(){
     for(int i=1;i<n+1;i++){
         scanf("%d ",&arr);
     }sotarr(arr,n);
-     printf("%d ",arr[-i-1]);
+     printf("%d ",arr[n-3]);
 }
