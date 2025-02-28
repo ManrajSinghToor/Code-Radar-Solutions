@@ -10,11 +10,12 @@ int maxarr(int arr[],int n){
 }
 int main(){
     int n;
+    int i=0
     scanf("%d\n",&n);
     int arr[n];
     for(int i =1;i<n+1;i++){
         scanf("%d ",&arr);
     }
     maxarr(arr,n);
-    printf("%d %d",arr[1]-arr[0],arr[3]-arr[2]);
+    printf("%d %d",arr[i+1]-arr[i],arr[i+3]-arr[i+2]);
 }
