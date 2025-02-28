@@ -9,7 +9,7 @@ int main() {
             count++;
         }else{
             printf(" ");
-        }
+        }printf("%d",count);
     }   
     return 0;
 }
