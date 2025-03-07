@@ -7,8 +7,3 @@ int fibonacciSeries(int n){
     int finalfib = fibn;
     return fibn;
 }
-int main(){
-    int n;
-    scanf("%d",&n);
-    printf("%d",fibonacciSeries(n));
-}
