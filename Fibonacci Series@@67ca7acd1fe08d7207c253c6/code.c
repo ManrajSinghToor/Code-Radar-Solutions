@@ -1,13 +1,14 @@
 // Your code here...
-int fib(int n){
-    if (n<=1){
+int fibon(int n){
+    if (n ==1||n==2){
         return 1;
-    }   int fibn = fib(n-1)+fib(n-2);
-        int finalfib = fibn;
-        return fibn;
+    }
+    int fibn = fibon(n-1)+fibon(n-2);
+    int finalfib = fibn;
+    return fibn;
 }
 int main(){
-    int num;
-    scanf("%d",&num);
-    printf("%d",fib(num));
+    int n;
+    scanf("%d",&n);
+    printf("%d",fibon(n));
 }
