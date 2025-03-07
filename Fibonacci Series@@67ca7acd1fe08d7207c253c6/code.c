@@ -9,5 +9,5 @@ int fib(int n){
 int main(){
     int num;
     scanf("%d",&num);
-    printf("%d",fib(n));
+    printf("%d",fib(num));
 }
