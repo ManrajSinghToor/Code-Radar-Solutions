@@ -5,5 +5,5 @@ int fibonacciSeries(int n){
     }
     int fibn = fibonacciSeries(n-1)+fibonacciSeries(n-2);
     int finalfib = fibn;
-    return fibn;
+    printf("%d",finalfib);
 }
