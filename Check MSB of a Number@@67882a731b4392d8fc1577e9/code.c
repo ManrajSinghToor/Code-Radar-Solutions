@@ -4,7 +4,6 @@ int main() {
     int msb;
 
     // Getting user input
-    printf("Enter an integer: ");
     scanf("%u", &num);
 
     // Finding the number of bits in the integer
