@@ -9,7 +9,7 @@ int main(){
     if(arr[i]>arr[i+1] && arr[i] % 2 == 0){
         printf("%d ",i);
     }else{
-        printf("Don't Print");
+        printf("-1");
     }
   }
 }
