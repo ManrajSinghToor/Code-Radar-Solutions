@@ -10,11 +10,11 @@ int main() {
         }printf("\n");
     }for(int l=1;l<=n-1;l++){
         for(int m=1;m<=n-l;m++){
-            printf("");
+            printf(" ");
         } 
         for(int p=1;p<=2*(n-l)-1;p++){
             printf("*");
-        }printf("\n");printf("");
+        }printf("\n");
     }
     return 0;
 }
