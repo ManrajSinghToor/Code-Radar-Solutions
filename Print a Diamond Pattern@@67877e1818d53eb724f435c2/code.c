@@ -14,7 +14,7 @@ int main() {
         } 
         for(int p=1;p<=2*(n-l)-1;p++){
             printf("*");
-        }printf("\n");printf(" ");
+        }printf("\n");printf("");
     }
     return 0;
 }
