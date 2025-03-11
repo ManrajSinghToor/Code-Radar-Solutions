@@ -7,9 +7,9 @@ int main(){
     scanf("%d ",&arr);
     for(int i = 0;i<=n;i++){
     if(arr[i]>arr[i+1] && arr[i] % 2 == 0){
-    printf("%d ",i);}
-    }
+        printf("%d ",i);}
     else{
         printf("-1");
+    }
   }
 }
