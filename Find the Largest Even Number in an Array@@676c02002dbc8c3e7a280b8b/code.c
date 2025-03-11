@@ -17,9 +17,9 @@ int main() {
     int size = sizeof(arr) / sizeof(arr[0]);
     int result = largest_even_number(arr, size);
     if (result != -1) {
-        printf("The largest even number in the array is: %d\n", result);
+        printf(result);
     } else {
-        printf("There are no even numbers in the array.\n");
+        printf("-1");
     }
     return 0;
 }
