@@ -1,6 +1,5 @@
 // Your code here...
 #include<stdio.h>
-#include <stdio.h>
 
 int largest_even_number(int arr[], int size) {
     int largest_even = -1; // Assuming all numbers are non-negative
