@@ -8,11 +8,11 @@ int main() {
         }for(int k=1;k<=2*i-1;k++){
             printf(" *");
         }printf("\n");
-    }for(int l=1;l<=n-1;l++){
-        for(int m=1;m<=n-l;m++){
+    }for(int l=n-1;l>=1;l--){
+        for(int m=n;m>l;m--){
             printf(" ");
         } 
-        for(int p=1;p<=2*(n-l)-1;p++){
+        for(int p=1;p<=2*l-1;p++){
             printf("*");
         }printf("\n");
     }
