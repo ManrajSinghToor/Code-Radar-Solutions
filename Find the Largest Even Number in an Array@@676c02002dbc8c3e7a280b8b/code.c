@@ -12,7 +12,10 @@ int largest_even_number(int arr[], int size) {
 }
 
 int main() {
-    int arr[] = {1, 3, 7, 10, 24, 17};
+    int n;
+    scanf("%d\n",&n)
+    int arr[n];
+    scanf("%d ",&arr);
     int size = sizeof(arr) / sizeof(arr[0]);
     int result = largest_even_number(arr, size);
     if (result != -1) {
