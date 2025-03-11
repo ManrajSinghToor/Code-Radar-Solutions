@@ -11,7 +11,13 @@ int main() {
         printf("False");
     }else if(!(n1 <=0 && n2 >= 0)){
         printf("False");
-    }else{
+    }else if(!(n1 <= 0 && n2 >=0)){
+        printf("False");
+    }
+    else if(!(n1 >= 0 && n2 <= 0)){
+        printf("False");
+    }
+    else{
         printf("True");
     }
     return 0;
