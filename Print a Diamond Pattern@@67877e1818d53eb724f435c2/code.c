@@ -10,9 +10,9 @@ int main() {
         }printf("\n");
     }for(int l=n-1;l>=1;l--){
         for(int m=n;m>l;m--){
-            printf(" ");
+            
         } 
-        for(int p=1;p<=2*l-1;p++){
+        for(int p=1;p<=2*l-1;p++){printf(" ");
             printf("*");
         }printf("\n");
     }
