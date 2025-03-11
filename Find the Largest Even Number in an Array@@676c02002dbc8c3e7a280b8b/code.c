@@ -13,7 +13,7 @@ int largest_even_number(int arr[], int size) {
 
 int main() {
     int n;
-    scanf("%d\n",&n)
+    scanf("%d\n",&n);
     int arr[n];
     scanf("%d ",&arr);
     int size = sizeof(arr) / sizeof(arr[0]);
