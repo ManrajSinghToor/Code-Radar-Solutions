@@ -14,9 +14,9 @@ int main() {
     msb = num & (1 << (num_bits - 1));
 
     if (msb) {
-        printf("The Most Significant Bit (MSB) of %u is set.\n", num);
+        printf("Set");
     } else {
-        printf("The Most Significant Bit (MSB) of %u is not set.\n", num);
+        printf("Not Set");
     }
 
     return 0;
