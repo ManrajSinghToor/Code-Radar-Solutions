@@ -1,15 +1,22 @@
 #include <stdio.h>
-
 int main() {
-    int num;
-    scanf("%d", &num);
+    unsigned int num;
+    int msb;
 
-    int msb = num & (1 << (sizeof(int) * 8 - 1));
+    // Getting user input
+    printf("Enter an integer: ");
+    scanf("%u", &num);
+
+    // Finding the number of bits in the integer
+    int num_bits = sizeof(num) * 8;
+
+    // Checking if the MSB is set
+    msb = num & (1 << (num_bits - 1));
 
     if (msb) {
-        printf("Set");
+        printf("The Most Significant Bit (MSB) of %u is set.\n", num);
     } else {
-        printf("Not set");
+        printf("The Most Significant Bit (MSB) of %u is not set.\n", num);
     }
 
     return 0;
