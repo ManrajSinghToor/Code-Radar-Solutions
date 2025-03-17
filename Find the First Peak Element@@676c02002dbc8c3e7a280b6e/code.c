@@ -12,7 +12,7 @@ int main(){
             printf("%d\n",arr[i]);
             k++;
             break;
-        }if(s==(n-1)){
+        }if(i==(n-1)){
             if(arr[i]>arr[i-1]){
                 printf("%d\n",arr[i]);
             k++;
