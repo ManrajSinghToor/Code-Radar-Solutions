@@ -7,7 +7,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d\n",&arr[i]);
     }for(int i=0;i<n;i++){
-        if(a[i-1]<a[i] && a[i]<a[i+1]){
+        if(arr[i-1]<arr[i] && arr[i]<arr[i+1]){
             printf("%d",arr[i]);
         }else{
             printf("mc");
