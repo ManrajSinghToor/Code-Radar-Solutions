@@ -6,9 +6,9 @@ int iprime(int arr[],int n){
     }
     for(int i = 2; i*i <= n; i++){
         if(n % i == 0){
-            return 0;
+            return 1;
         }  
-    }     
+    }return 0; 
 }
 int main(){
     int n;
@@ -20,5 +20,5 @@ int main(){
     int count = 0;
     if(iprime(arr,n)){
         count++;
-    }printf("%d",count);
+    }printf("%d ",count);
 }
