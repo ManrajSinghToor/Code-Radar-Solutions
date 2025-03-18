@@ -1,6 +1,6 @@
 // Your code here...
 #include <stdio.h>
-int is_prime(int n){  
+int iprime(int arr[],int n){  
     if (n <= 1){
         return 0;
     }
@@ -12,13 +12,14 @@ int is_prime(int n){
     return 1;  
 }
 int main(){
-    int count = 0;
     int n;
     scanf("%d\n",&n);
     int arr[n];
     for(int i=0;i<n+1;i++){
-    scanf("%d ",&arr);}
-    if(is_prime(arr,n)){
+    scanf("%d ",&arr);
+}
+    int count = 0;
+    if(iprime(arr,n)){
         count++;
     }else{
         printf("No");
