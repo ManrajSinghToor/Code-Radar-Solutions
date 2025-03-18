@@ -21,7 +21,5 @@ int main(){
     int count = 0;
     if(iprime(arr,n)){
         count++;
-    }else{
-        printf("No");
     }printf("%d",count);
 }
