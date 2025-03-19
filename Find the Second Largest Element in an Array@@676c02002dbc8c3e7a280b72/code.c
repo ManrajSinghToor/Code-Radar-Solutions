@@ -17,7 +17,7 @@ int main(){
     int arr[n];
     for(int i = 1;i<=n;i++){
         scanf("%d ",&arr[i]);
-    }if(srtarr(arr,n)&&arr[i]!=arr[i+1]){
+    }if(srtarr(arr,n)){
         printf("%d ",arr[n-2]);
     }
     else{
