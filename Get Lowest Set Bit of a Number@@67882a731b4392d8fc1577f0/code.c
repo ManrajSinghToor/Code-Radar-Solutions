@@ -9,7 +9,7 @@ int main() {
         printf("0");
     } else {
         // Get the lowest set bit
-        unsigned int lowest_set_bit = number & (number-1);
+        unsigned int lowest_set_bit = number & (-number);
 
         printf("%u\n",lowest_set_bit);
     }
