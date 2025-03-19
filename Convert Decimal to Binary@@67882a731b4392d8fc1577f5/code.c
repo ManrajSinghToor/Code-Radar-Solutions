@@ -1,20 +1,23 @@
 // Your code here...
 #include <stdio.h>
 
-void printBinary(int num) {
-    unsigned int mask = 1 << (sizeof(int) * 8 - 1);
+void convertToBinary(unsigned int number) {
+    int total_bits = sizeof(number) * 8; // Total bits in the integer
 
-    for (int i = 0; i < sizeof(int) * 8; i++) {
-        putchar((num & mask) ? '1' : '0');
-        mask >>= 1;
+    // Print binary representation
+    for (int i = total_bits - 1; i >= 0; i--) {
+        printf("%d", (number >> i) & 1);
     }
-    putchar('\n');
 }
 
 int main() {
-    int number = 42;
-    printf("Binary representation of %d: ", number);
-    printBinary(number);
+    unsigned int number;
+    scanf("%u", &number);
+
+    printf("%u",number);
+    convertToBinary(number);
+    printf("\n");
 
     return 0;
 }
+
