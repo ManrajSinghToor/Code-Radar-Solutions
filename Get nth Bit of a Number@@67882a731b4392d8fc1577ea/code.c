@@ -9,7 +9,7 @@ int main() {
     // Get the nth bit
     int nth_bit = (number >> n) & 1;
 
-    printf("The %u-th bit of %u is: %d\n", n, number, nth_bit);
+    printf("%u",nth_bit);
 
     return 0;
 }
