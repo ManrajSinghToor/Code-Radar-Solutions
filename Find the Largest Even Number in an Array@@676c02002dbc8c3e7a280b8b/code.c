@@ -1,4 +1,5 @@
 // Your code here...
+#include<stdio.h>
 int check(int arr[],int n){
     for(int i=0;i<n-1;i++){
         for(int j=0;i<n-i-1;j++){
@@ -20,5 +21,5 @@ int main(){
         printf("%d ",arr[n-1]);
     }else{
         printf("-1");
-    }
+    }return 0;
 }
