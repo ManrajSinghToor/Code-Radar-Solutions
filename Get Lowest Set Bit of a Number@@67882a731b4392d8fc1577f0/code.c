@@ -1,12 +1,14 @@
 // Your code here...
 #include <stdio.h>
+
 int main() {
-    int n;
-    scanf("%d",&n);
-    if( n & 1 == 1){
-        printf("%d",n);}
-    else{
-        printf("Not Set");
-    }
-     return 0;
+    unsigned int number;
+    scanf("%u", &number);
+
+    // Get the lowest set bit
+    unsigned int lowest_set_bit = number & -number;
+
+    printf("%u\n",lowest_set_bit);
+
+    return 0;
 }
