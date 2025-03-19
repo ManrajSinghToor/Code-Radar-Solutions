@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 int main() {
-    unsigned int number;
-    scanf("%u", &number);
+    int number;
+    scanf("%d", &number);
 
     // Flip all bits using the bitwise NOT operator (~)
-    unsigned int flipped_number = ~number;
+    int flipped_number = ~number;
 
-    printf("%u\n",flipped_number);
+    printf("%d\n",flipped_number);
 
     return 0;
 }
