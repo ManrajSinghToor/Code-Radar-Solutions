@@ -5,7 +5,7 @@ int main() {
     fgets(str,99,stdin);
     int count = 0;
     for(int i=0;i<'\0';i++){
-        if(str == "AEIOU"||str == "aeiou"){
+        if(str[99] == "AEIOU"||str[99] == "aeiou"){
             count++;
         }else{
             printf(" ");
