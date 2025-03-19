@@ -7,6 +7,6 @@ int main(){
     for(int i=0;i<=n;i++){
         scanf("%d ",&arr);
     }for(int i=0;i<n/2;i++){
-        printf("%d",arr[n-1]);
+        printf("%d",arr[n+1]);
     }return 0; 
 }
