@@ -1,21 +1,25 @@
 // Your code here...
 #include <stdio.h>
+int getLowestSetBitPosition(int num) {
+    if (num == 0) return -1; // No set bit found
+    int position = 0;
+    while (!(num & 1)) {
+        num >>= 1;
+        position++;
+    }
+    return position;
+}
 
 int main() {
-    unsigned int number;
-    scanf("%u", &number);
+    int num;
+    scanf("%d", &num);
 
-    if (number == 0) {
-        printf("0");
+    int position = getLowestSetBitPosition(num);
+    if (position == -1) {
+        printf("No set bit found.\n");
     } else {
-        // Get the lowest set bit
-        unsigned int lowest_set_bit = number & (1-number);
-
-        printf("%u\n",lowest_set_bit);
+        printf("%d", position);
     }
 
     return 0;
 }
-
-
-
