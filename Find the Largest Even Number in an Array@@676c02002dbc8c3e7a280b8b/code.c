@@ -20,9 +20,10 @@ int main(){
     }if(check(arr,n)){
         if(arr[n-1] % 2 == 0){
             printf("%d",arr[n-1]);
-            if(arr[n-2] % 2 == 0){
-                printf("%d",arr[n-2]);
-            }else{
+            // if(arr[n-2] % 2 == 0){
+            //     printf("%d",arr[n-2]);
+            // }
+            else{
             printf("-1");
         }
         }
