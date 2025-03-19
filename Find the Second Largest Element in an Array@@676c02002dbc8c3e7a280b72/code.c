@@ -20,6 +20,7 @@ int main(){
     }if(srtarr(arr,n)){
         printf("%d ",arr[n-2]);
     }
-    //else{
-    //     printf("-1");}
+    else{
+        printf("-1");}
+    return 0;
     }
