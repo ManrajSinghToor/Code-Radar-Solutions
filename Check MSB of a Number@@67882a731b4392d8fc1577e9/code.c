@@ -1,18 +1,13 @@
 #include <stdio.h>
+
 int main() {
-    unsigned int num;
-    int msb;
+    unsigned int number;
+    scanf("%u", &number);
 
-    // Getting user input
-    scanf("%u", &num);
+    // Get the MSB
+    unsigned int msb = (number >> (sizeof(number) * 8 - 1)) & 1;
 
-    // Finding the number of bits in the integer
-    int num_bits = sizeof(num) * 8;
-
-    // Checking if the MSB is set
-    msb = num & (1 << (num_bits - 1));
-
-    if (msb) {
+    if (msb == 1) {
         printf("Set");
     } else {
         printf("Not Set");
@@ -20,3 +15,4 @@ int main() {
 
     return 0;
 }
+
