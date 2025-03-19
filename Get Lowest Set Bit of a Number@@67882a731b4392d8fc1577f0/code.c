@@ -3,7 +3,7 @@
 
 int main() {
     unsigned int number;
-    printf("Enter the number: ");
+
     scanf("%u", &number);
 
     // Check if the number is zero
