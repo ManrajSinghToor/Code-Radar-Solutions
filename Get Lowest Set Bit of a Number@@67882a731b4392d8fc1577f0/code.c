@@ -6,7 +6,7 @@ int main() {
     scanf("%u", &number);
 
     // Get the lowest set bit
-    unsigned int lowest_set_bit = number &-number;
+    unsigned int lowest_set_bit = number & -number;
 
     printf("%u\n",lowest_set_bit);
 
