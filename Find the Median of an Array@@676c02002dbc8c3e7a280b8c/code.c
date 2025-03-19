@@ -6,7 +6,7 @@ int main(){
     int arr[n];
     int median = 0;
     for(int i=0;i<=n;i++){
-        scanf("%d ",&arr);
+        scanf("%d ",&arr[i]);
     }
     for(int i=0;i<n;i++){
        median = median+arr[i]; 
