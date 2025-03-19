@@ -15,7 +15,7 @@ int main(){
     scanf("%d\n",&n);
     int arr[n];
     for(int i=0;i<=n;i++){
-    scanf("%d ",&arr);
+    scanf("%d ",&arr[i]);
 }
     int count = 0;
     if(iprime(arr,n)){
