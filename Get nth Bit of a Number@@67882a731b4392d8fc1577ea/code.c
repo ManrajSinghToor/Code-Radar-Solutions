@@ -3,9 +3,7 @@
 
 int main() {
     unsigned int number, n;
-    printf("Enter the number: ");
-    scanf("%u", &number);
-    printf("Enter the bit position (0-based): ");
+    scanf("%u ", &number);
     scanf("%u", &n);
 
     // Get the nth bit
