@@ -4,7 +4,7 @@ int main(){
     int n;
     scanf("%d\n",&n);
     int arr[n];
-    int median = arr[0];
+    int median = 0;
     for(int i=0;i<=n;i++){
         scanf("%d ",&arr);
     }for(int i=0;i<n+1;i++){
