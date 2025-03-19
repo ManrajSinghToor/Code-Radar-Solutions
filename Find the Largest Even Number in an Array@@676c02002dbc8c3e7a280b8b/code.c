@@ -18,7 +18,7 @@ int main(){
     for(int i=0;i<=n;i++){
         scanf("%d ",&arr[i]);
     }if(check(arr,n)){
-        printf("%d ",arr[0]);
+        printf("%d ",arr);
     }else{
         printf("-1");
     }return 0;
