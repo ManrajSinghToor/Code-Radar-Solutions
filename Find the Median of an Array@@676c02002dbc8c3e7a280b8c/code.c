@@ -7,8 +7,11 @@ int main(){
     int median = 0;
     for(int i=0;i<=n;i++){
         scanf("%d ",&arr);
-    }for(int i=0;i<n;i++){
+    }
+    for(int i=0;i<n;i++){
        median = median+arr[i]; 
-    }printf("%d",median/n);
+    }
+    int r = median / n;
+    printf("%d",r);
     return 0; 
 }
