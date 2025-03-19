@@ -9,8 +9,8 @@ int main() {
         printf("True");
     // }else if(!(n1 >= 0 && n2<=0)){
     //     printf("False");
-    // }else if(!(n1 <=0 && n2 >= 0)){
-    //     printf("False");
+    }else if(!(n1 <=0 && n2 >= 0)){
+        printf("False");
     }else if(!(n1 <= 0 && n2 >=0)){
         printf("False");
     }
