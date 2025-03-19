@@ -16,5 +16,7 @@ int main(){
         scanf("%d ",&arr[i]);
     }if(srtarr(arr,n)){
         printf("%d",arr[n-3]);
+    }else{
+        printf("-1");
     }
 }
