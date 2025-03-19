@@ -15,6 +15,6 @@ int main(){
     for(int i = 1;i<=n;i++){
         scanf("%d ",&arr[i]);
     }if(srtarr(arr,n)){
-        printf("%d",arr[n-3]);
+        printf("%d",arr[n+1]);
     }
 }
