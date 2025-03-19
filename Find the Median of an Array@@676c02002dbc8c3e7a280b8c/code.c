@@ -9,6 +9,6 @@ int main(){
         scanf("%d ",&arr);
     }for(int i=0;i<n;i++){
        median = median+arr[i]; 
-    }printf("%d",median);
+    }printf("%d",median/n);
     return 0; 
 }
