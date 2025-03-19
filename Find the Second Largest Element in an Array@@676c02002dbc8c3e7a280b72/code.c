@@ -15,7 +15,7 @@ int main(){
     for(int i = 1;i<=n;i++){
         scanf("%d ",&arr[i]);
     }if(srtarr(arr,n)){
-        printf("%d",arr[(n-1)]);
+        printf("%d",arr[n-1]);
     }else{
         printf("-1");
     }
