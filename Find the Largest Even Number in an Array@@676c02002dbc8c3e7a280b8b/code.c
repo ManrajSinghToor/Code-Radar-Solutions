@@ -1,27 +1,19 @@
 // Your code here...
 #include<stdio.h>
-
-int largest_even_number(int arr[], int size) {
-    int largest_even = -1; // Assuming all numbers are non-negative
-    for (int i = 0; i < size; i++) {
-        if (arr[i] % 2 == 0 && arr[i] > largest_even) {
-            largest_even = arr[i];
+int check(int arr[],int n){
+    for(int i=0;i<n;i++){
+        if(arr[i]>arr[i+1] && arr[i] % 2 ==0){
+            return 0;   
         }
     }
-    return largest_even;
 }
-
-int main() {
+int main(){
     int n;
     scanf("%d\n",&n);
     int arr[n];
-    scanf("%d ",&arr);
-    int size = sizeof(arr) / sizeof(arr[0]);
-    int result = largest_even_number(arr, size);
-    if (result != -1) {
-        printf(result);
-    } else {
-        printf("-1");
+    for(int i=0;i<=n;i++){
+        scanf("%d ",&arr[i]);
+    }if(check(arr,n)){
+        printf("%d ",i);
     }
-    return 0;
 }
