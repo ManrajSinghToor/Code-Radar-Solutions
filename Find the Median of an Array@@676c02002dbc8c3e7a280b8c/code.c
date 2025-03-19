@@ -8,8 +8,7 @@ int main(){
     for(int i=0;i<=n;i++){
         scanf("%d ",&arr);
     }for(int i=0;i<n+1;i++){
-       median = arr[i]+arr[i+1]; 
-       i++;
+       median = median+arr[i]; 
     }printf("%d",median);
     return 0; 
 }
