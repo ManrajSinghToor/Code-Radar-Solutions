@@ -17,9 +17,10 @@ int main(){
     int arr[n];
     for(int i = 1;i<=n;i++){
         scanf("%d ",&arr[i]);
-    }srtarr(arr,n);
+    }if(srtarr(arr,n)){
         printf("%d ",arr[n-2]);
-        return 0;
-        printf("-1");
-    
+    }
+    else{
+        printf("-1");}
+    return 0;
     }
