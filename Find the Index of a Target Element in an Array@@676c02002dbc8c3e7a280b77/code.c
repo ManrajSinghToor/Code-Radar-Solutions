@@ -13,10 +13,8 @@ int main(){
     if(k == arr[i]){
         printf("%d",i);
     }
-    // else if(k != arr[i]){
-    //     printf("-1");
-    //     break;
-    }if(k != arr[n]){
+    else if(k != arr[i]){
         printf("-1");
+        break;
     }
 }
