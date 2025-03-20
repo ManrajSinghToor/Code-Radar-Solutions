@@ -20,7 +20,7 @@ int main(){
     }
     sort(arr, n);
     if (n > 1 && arr[n - 1] == arr[n - 2]){
-        printf("%d",arr[n-3])
+        printf("%d",arr[n-3]);
     }
     else if (n > 1 && arr[n - 1] != arr[n - 2]) {
         printf("%d", arr[n - 2]);
