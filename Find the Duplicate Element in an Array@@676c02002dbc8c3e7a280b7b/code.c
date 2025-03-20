@@ -21,6 +21,8 @@ int main(){
         }
         }if(arr[i]!=-1){
             break;
-        }printf("%d",countnon);
+        }else{
+            printf("%d",countnon);
+            }
     }
 }
