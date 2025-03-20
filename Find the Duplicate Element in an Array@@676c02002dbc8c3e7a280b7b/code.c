@@ -18,6 +18,7 @@ int main(){
                 arr[j] = -1;
             }else{
             countnon++;
-         }
+           }
+        }    
     }
 }
