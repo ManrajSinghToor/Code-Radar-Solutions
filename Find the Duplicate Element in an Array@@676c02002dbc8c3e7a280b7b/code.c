@@ -18,11 +18,6 @@ int main(){
                 arr[j] = -1;
             }else{
             countnon++;
-        }
-        }if(arr[i]!=-1){
-            break;
-        }else{
-            printf("%d",countnon);
-            }
+         }
     }
 }
