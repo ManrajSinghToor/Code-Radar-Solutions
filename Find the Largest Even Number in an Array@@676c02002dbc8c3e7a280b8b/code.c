@@ -17,15 +17,6 @@ int main(){
     int arr[n];
     for(int i=0;i<=n;i++){
         scanf("%d ",&arr[i]);
-    }for(int i=0;i<n;i++){
-    if(check(arr,n)){
-        if(arr[i]%2==0){
-            printf("%d",arr[n-1]);
-            break;
-        }
-    }else{
-        printf("-1");
-        break;
-        }
-    }return 0;
+    }
+    return 0;
 }
