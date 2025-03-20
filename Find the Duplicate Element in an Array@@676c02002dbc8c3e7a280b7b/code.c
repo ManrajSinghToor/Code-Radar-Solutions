@@ -15,7 +15,7 @@ int main(){
                 countdup++;
                 arr[j] = -1;
             }else{
-            countnon++
+            countnon++;
         }
         }if(arr[i]!=-1){
             break;
