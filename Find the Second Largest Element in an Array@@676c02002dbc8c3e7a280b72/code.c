@@ -13,12 +13,12 @@ int srtarr(int arr[],int n){
 }
 int main(){
     int n;
-    scanf("%d\n",&n);
+    scanf("%d",&n);
     int arr[n];
     for(int i = 1;i<=n;i++){
-        scanf("%d ",&arr[i]);
+        scanf("%d",&arr[i]);
     }if(srtarr(arr,n)){
-        printf("%d ",arr[n-2]);
+        printf("%d",arr[n-2]);
     }
     else{
         printf("-1");
