@@ -17,11 +17,11 @@ int main(){
     int arr[n];
     for(int i=0;i<=n;i++){
         scanf("%d ",&arr[i]);
-    }if(check(arr,n)){
+    }(check(arr,n))
         if(arr[i] % 2 ==0){
-        printf("%d",arr[i]);}
-    }else{
-        printf("-1");
-    }
+            printf("%d",arr[i]);}
+        else{
+            printf("-1");
+        }
     return 0;
 }
