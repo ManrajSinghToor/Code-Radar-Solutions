@@ -6,7 +6,7 @@ char bubbleSort(char* arr[],int n){
         for(char j=0;j<n-i-1;j++){
             if(arr[j]>arr[j+1]){
                 char new = *arr[j];
-                arr[j] = arr[j+1];
+                arr[j] = *arr[j+1];
                 arr[j+1] = new;
             }
         }
