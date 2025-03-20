@@ -19,5 +19,8 @@ int main(){
         scanf("%d ",&arr[i]);
     }if(sort(arr,n)){
         printf("%d ",arr[n-2]);
+    }else{
+        printf("-1");
+        break;
     }
 }
