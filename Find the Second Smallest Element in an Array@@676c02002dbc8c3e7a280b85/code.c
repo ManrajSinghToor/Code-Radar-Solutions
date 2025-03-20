@@ -20,6 +20,7 @@ int main(){
     }for(int i=0;i<n;i++){
     if(sort(arr,n)){
         printf("%d ",arr[n-2]);
+        break;
     }else{
         printf("-1");
         break;
