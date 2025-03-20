@@ -20,7 +20,8 @@ int main(){
     }check(arr,n);
     for(int i=0;i<n;i++){
         if(arr[i] % 2 ==0){
-            printf("%d",arr[n-1]);
+            printf("%d",arr[n-1]);\
+            return 0;
         }
         else{
             printf("-1");
