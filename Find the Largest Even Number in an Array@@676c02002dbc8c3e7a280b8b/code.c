@@ -19,7 +19,7 @@ int main(){
         scanf("%d ",&arr[i]);
     }if(check(arr,n)){
         if(arr[i] % 2 ==0){
-        printf("%d",arr[n-1]);}
+        printf("%d",arr[i]);}
     }else{
         printf("-1");
     }
