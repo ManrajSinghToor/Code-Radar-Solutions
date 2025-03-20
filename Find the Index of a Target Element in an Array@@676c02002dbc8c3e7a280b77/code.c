@@ -17,4 +17,5 @@ int main(){
         printf("-1");
         break;
     }
+  }
 }
