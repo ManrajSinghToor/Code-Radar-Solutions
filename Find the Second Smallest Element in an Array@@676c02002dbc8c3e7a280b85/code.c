@@ -24,11 +24,11 @@ int main(){
     }
     if (n > 1 && arr[n - 1] != arr[n - 2]) {
         printf("%d", arr[n - 2]);
-    } 
-    else {
+    } return 0;
+    else{
         printf("-1");
     }
-    return 0;
+    
 }
     // for(int i=0;i<n;i++){
     // if(sort(arr,n) && (arr[i]!=1)){
