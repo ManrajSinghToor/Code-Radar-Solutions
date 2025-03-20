@@ -17,18 +17,27 @@ int main(){
     int arr[n];
     for(int i=0;i<=n;i++){
         scanf("%d ",&arr[i]);
-    }for(int i=0;i<n;i++){
-    if(sort(arr,n) && (arr[i]!=1)){
-        printf("%d ",arr[n-2]);
-        break;
     }
-    if(sort(arr,n) && (arr[i] = 1)){
-        printf("%d ",arr[n-3]);
-        break;
-    }
-    else{
+    sort(arr, n);
+    if (n > 1 && arr[n - 1] != arr[n - 2]) {
+        printf("%d", arr[n - 2]);
+    } else {
         printf("-1");
-        break;
     }
-  }
+    return 0;
 }
+    // for(int i=0;i<n;i++){
+    // if(sort(arr,n) && (arr[i]!=1)){
+    //     printf("%d ",arr[n-2]);
+    //     break;
+    // }
+    // if(sort(arr,n) && (arr[i] = 1)){
+    //     printf("%d ",arr[n-3]);
+    //     break;
+    // }
+//     else{
+//         printf("-1");
+//         break;
+//     }
+//   }
+// }
