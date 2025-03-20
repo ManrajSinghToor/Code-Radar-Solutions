@@ -22,7 +22,7 @@ int main(){
         printf("%d ",arr[n-3]);
         break;
     }
-    if(sort(arr,n)){
+    else if(sort(arr,n) && (arr[i]!=1)){
         printf("%d ",arr[n-2]);
         break;
     }else{
