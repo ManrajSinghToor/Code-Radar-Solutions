@@ -18,14 +18,15 @@ int main(){
     for(int i=0;i<=n;i++){
         scanf("%d ",&arr[i]);
     }for(int i=0;i<n;i++){
+    if(sort(arr,n) && (arr[i]!=1)){
+        printf("%d ",arr[n-2]);
+        break;
+    }
     if(sort(arr,n) && (arr[i] = 1)){
         printf("%d ",arr[n-3]);
         break;
     }
-    else if(sort(arr,n) && (arr[i]!=1)){
-        printf("%d ",arr[n-2]);
-        break;
-    }else{
+    else{
         printf("-1");
         break;
     }
