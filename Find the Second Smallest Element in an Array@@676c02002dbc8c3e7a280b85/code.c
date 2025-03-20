@@ -17,10 +17,12 @@ int main(){
     int arr[n];
     for(int i=0;i<=n;i++){
         scanf("%d ",&arr[i]);
-    }if(sort(arr,n)){
+    }for(int i=0;i<n;i++){
+    if(sort(arr,n)){
         printf("%d ",arr[n-2]);
     }else{
         printf("-1");
         break;
     }
+  }
 }
