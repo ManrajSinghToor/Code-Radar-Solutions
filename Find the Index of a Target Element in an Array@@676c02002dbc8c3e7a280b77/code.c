@@ -14,6 +14,7 @@ int main(){
         printf("%d",i);
     }else if(k != arr[i]){
         printf("-1");
+        break;
     }
     }
 }
