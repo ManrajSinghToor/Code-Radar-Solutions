@@ -22,9 +22,9 @@ int main(){
         if(arr[i] % 2 ==0){
             printf("%d",arr[n-1]);
         }
-    }
-    else{
-        printf("-1");
+        else{
+            printf("-1");
+        }
     }
     return 0;
 }
