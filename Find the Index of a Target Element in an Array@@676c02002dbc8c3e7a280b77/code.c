@@ -12,9 +12,11 @@ int main(){
     for(int i=0;i<n;i++){
     if(k == arr[i]){
         printf("%d",i);
-    }else if(k != arr[i]){
-        printf("-1");
-        break;
     }
+    // else if(k != arr[i]){
+    //     printf("-1");
+    //     break;
+    }if(k != arr[n]){
+        printf("-1");
     }
 }
