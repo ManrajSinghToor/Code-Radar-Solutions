@@ -10,6 +10,6 @@ int main() {
         if(ch == 'a'||ch == 'u'||ch == 'e'||ch == 'i'||ch == 'o'||ch == 'A'||ch == 'O'||ch=='I'||ch == 'E'||ch=='U'){
             ch == c;
         }
-    }printf("%d",ch); 
+    }printf("%d",c); 
     return 0;
 }
