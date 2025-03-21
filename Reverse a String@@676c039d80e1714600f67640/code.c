@@ -17,7 +17,7 @@ int main() {
     for(int i=0;i<n;i++){
         scanf("%s",&str);
     }
-    (sort(arr,100));
+    (sort(str,100));
     for(int i=0;i<n;i++){
         printf("%d ",arr[i]);
         }return 0;
