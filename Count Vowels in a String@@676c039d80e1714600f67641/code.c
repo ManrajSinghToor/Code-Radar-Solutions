@@ -6,7 +6,7 @@ int main() {
     int count = 0;
     for(char i=0;str[i]!='\0';i++){
         char ch = (str[i]);
-        if(ch == "a"||ch == "u"||ch == "o"||ch == "i"||ch == "e"){
+        if(ch == 'a'||ch == 'u'||ch == 'e'||ch == 'i'||ch == 'o'){
             count++;
         }else{
             printf(" ");
