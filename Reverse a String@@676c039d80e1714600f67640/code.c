@@ -19,6 +19,6 @@ int main() {
     }
     (sort(str,100));
     for(int i=0;i<n;i++){
-        printf("%d ",arr[i]);
+        printf("%s ",str[i]);
         }return 0;
     }
