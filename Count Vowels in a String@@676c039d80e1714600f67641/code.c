@@ -5,7 +5,7 @@ int main() {
     fgets(str,99,stdin);
     int count = 0;
     for(char i=0;str[i]!='\0';i++){
-        char ch = tolower(str[i]);
+        char ch = (str[i]);
         if(ch == "a"||ch == "u"||ch == "o"||ch == "i"||ch == "e"){
             count++;
         }else{
