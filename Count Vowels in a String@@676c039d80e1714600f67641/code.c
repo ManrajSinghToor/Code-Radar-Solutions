@@ -8,8 +8,6 @@ int main() {
         char ch = (str[i]);
         if(ch == 'a'||ch == 'u'||ch == 'e'||ch == 'i'||ch == 'o'){
             count++;
-        }else{
-            printf(" ");
         }
     }printf("%d",count); 
     return 0;
