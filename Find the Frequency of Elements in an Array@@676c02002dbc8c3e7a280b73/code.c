@@ -8,14 +8,14 @@ int main(){
         scanf("%d ",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        int count = 1;
+        int freq = 1;
         for(int j=i+1;j<n;j++){
             if(arr[i] == arr[j]){
-                count++;
+                freq++;
                 arr[j] = -1;
             }
         }if(arr[i] != -1){
-            printf("%d %d\n",arr[i],count);
+            printf("%d %d\n",arr[i],freq);
         }
     }
 }
