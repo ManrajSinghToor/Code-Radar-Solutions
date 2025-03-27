@@ -7,8 +7,7 @@ int main() {
     scanf("%c",&c);
     char ch;
     for(char i=0;str[i]!='\0';i++){
-       
-        if(ch == 'a'||ch == 'u'||ch == 'e'||ch == 'i'||ch == 'o'||ch == 'A'||ch == 'O'||ch=='I'||ch == 'E'||ch=='U'){
+        if(str == 'a'||str == 'u'||str == 'e'||str == 'i'||str == 'o'||str == 'A'||str == 'O'||str =='I'||str == 'E'||str == 'U'){
             ch == c;
             printf("%d",ch);
         }
