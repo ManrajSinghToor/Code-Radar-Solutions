@@ -1,14 +1,13 @@
 #include<stdio.h>
 int target(int n,int arr[],int k){
-  int index = -1;
   for(int i=0;i<n;i++){
     if(arr[i] == k){
-      index = i;
+      return i;
     }else{
       printf("-1");
       break;
   }
- }printf("%d",index);
+ }
 }
 int main(){
   int n;
