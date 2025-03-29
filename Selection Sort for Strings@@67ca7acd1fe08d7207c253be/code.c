@@ -8,7 +8,7 @@ int selectionSort(char arr[][100],int n){
                 char new[100];
                 strcpy(new,arr[j]);
                 strcpy(arr[j],arr[j+1]);
-                strcpy(arr[j+1],new)
+                strcpy(arr[j+1],new);
             }
         }
     }
