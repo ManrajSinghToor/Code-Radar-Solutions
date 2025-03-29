@@ -1,14 +1,8 @@
 // Your code here...
-int fibonacciSeries() {
-    int n;
-    scanf("%d",&n);
-    int a,b;
-    // scanf("%d %d",&a,&b);
-    for (int i = 2; i<n; i++) {
-        int c;
-        c = a;
-        a = b;
-        b = c;
-        printf("%d %d",a,b);
-    }
+int fibonacciSeries(int n) {
+    if(n<=2){
+        return 1;
+    }int fib = fibonacciSeries(n-1)+fibonacciSeries(n-2);
+    printf("%d",fib);
 }
+
