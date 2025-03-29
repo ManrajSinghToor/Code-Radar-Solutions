@@ -9,14 +9,13 @@ int main() {
         scanf("%d", &arr[i]);
     }
     scanf("%d", &k);
+    int index = 0;
     for (int i = 0; i < n; i++) {
         if (arr[i] == k) {
-            printf("%d",i);
+            index = i;
             break;
-        }else{
-          printf("-1");
         }
     }
-    // printf("%d", index);
+    printf("%d", index);
     return 0;
 }
