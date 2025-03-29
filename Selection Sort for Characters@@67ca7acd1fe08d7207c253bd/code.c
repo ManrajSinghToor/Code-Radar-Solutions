@@ -12,7 +12,7 @@ int selectionSort(char arr[],int n){
     }
 }
 int printArray(char arr[],int n){
-    for(char i=0;i<n;i++){
+    for(int i=0;i<n;i++){
         printf("%d",arr[i]);
     }
 }
