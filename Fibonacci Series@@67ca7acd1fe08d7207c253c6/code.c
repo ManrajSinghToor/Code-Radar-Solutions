@@ -5,8 +5,7 @@ int fibonacciSeries(int n) {
     }else{
         for(int i=3;i<=n;i++){
         int fib = fibonacciSeries(n-1)+fibonacciSeries(n-2);
-        int fibn = fib;
-        printf("%d ",fibn);}
+        printf("%d ",fib);}
     }
 }
 
