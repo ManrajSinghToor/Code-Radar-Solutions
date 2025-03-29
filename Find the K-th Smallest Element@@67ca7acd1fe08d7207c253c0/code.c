@@ -12,8 +12,7 @@ void sort(int arr[],int n){
 }
 int kthSmallest(int arr[],int n,int k){
     sort(arr,n);
-    int one;
     for(int i=0;i<n;i++){
         return arr[n-k];
-    }printf("%d",one);
+    }
 }
