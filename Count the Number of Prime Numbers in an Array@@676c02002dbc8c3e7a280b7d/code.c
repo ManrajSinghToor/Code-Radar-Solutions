@@ -2,7 +2,7 @@
 int prime(int arr[],int n){
     int count = 0;
     if(n<=1){
-        return 1;
+        return 0;
     }for(int j=2;j*j<n/2;j++){
         if(n % j == 0){
             count++;
