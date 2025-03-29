@@ -1,5 +1,5 @@
 #include<stdio.h>
-int prime(int arr[],int n){
+int prime(int n){
     if(n<=1){
         return 0;
     }for(int j=2;j<n/2;j++){
@@ -16,7 +16,7 @@ int main(){
         scanf("%d",&arr[i]);
     }int count = 0;
     for(int i=0;i<n;i++){
-        if(prime(arr,n)){
+        if(prime(arr[i])){
             count++;
         }
     }printf("%d",count);
