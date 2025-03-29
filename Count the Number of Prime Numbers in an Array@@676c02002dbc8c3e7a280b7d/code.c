@@ -2,7 +2,7 @@
 int prime(int n){
     if(n<=1){
         return 0;
-    }for(int j=2;j<n/2;j++){
+    }for(int j=2;j<=n/2;j++){
         if(n % j == 0){
             return 0;
         }
