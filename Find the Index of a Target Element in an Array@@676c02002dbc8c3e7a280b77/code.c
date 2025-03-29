@@ -15,7 +15,7 @@ int main() {
             printf("%d", i);
             break;
         }
-    }if(arr[i]!=k){
+    }if(arr[n]!=k){
       printf("-1");
     }
     return 0;
