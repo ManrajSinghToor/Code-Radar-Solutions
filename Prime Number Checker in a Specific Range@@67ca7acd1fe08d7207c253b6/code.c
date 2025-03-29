@@ -1,6 +1,6 @@
 // Your code here...
 #include<stdio.h>
-int printPrimeInRange(int start,int end){
+int printPrimesInRange(int start,int end){
     if(start<=1){
         return 0;
     }else{
