@@ -12,7 +12,7 @@ int isPrime(int n){
     }return 1;
 }
 int printPrimesInRange(int start,int end){
-    isPrime(n);
+    isPrime(int n);
     for(int i = start;i<end;i++){
         printf("%d",i);
     }
