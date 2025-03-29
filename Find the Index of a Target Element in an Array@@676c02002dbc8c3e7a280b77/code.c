@@ -9,7 +9,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
     scanf("%d", &k);
-    int index = 0;
+    int index = -1;
     for (int i = 0; i < n; i++) {
         if (arr[i] == k) {
             index = i;
