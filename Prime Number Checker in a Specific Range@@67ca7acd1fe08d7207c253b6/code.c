@@ -1,4 +1,5 @@
 // Your code here...
+#include<stdio.h>
 int printPrimeInRange(int start,int end){
     if(start<=1){
         return 0;
