@@ -18,6 +18,10 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    printf("%d ",replace(arr,n));
+    if(replace(arr,n)){
+        printf("%d",replace);
+    }else{
+        printf("No");
+    }
     return 0;
 }
