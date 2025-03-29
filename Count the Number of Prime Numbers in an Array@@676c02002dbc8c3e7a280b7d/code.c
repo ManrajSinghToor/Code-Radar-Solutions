@@ -2,7 +2,7 @@
 int prime(int arr[],int n){
     if(n<=1){
         return 0;
-    }for(int j=2;j<=n/2;j++){
+    }for(int j=2;j<n/2;j++){
         if(n % j == 0){
             return 0;
         }
@@ -18,8 +18,6 @@ int main(){
     for(int i=0;i<n;i++){
         if(prime(arr,n)){
             count++;
-        }else{
-            printf("-1");
         }
     }printf("%d",count);
 }
