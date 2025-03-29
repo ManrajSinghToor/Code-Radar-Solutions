@@ -18,6 +18,6 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    replace(arr,n);
+    printf("%d ",replace(arr,n));
     return 0;
 }
