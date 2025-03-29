@@ -1,6 +1,6 @@
 // Your code here...
 #include<stdio.h>
-int isPrime(int n){
+void isPrime(int n){
     if(n<=1){
         return 0;
     }else{
@@ -12,6 +12,7 @@ int isPrime(int n){
     }return 1;
 }
 int printPrimesInRange(int start,int end){
+    isPrime(n);
     for(int i = start;i<end;i++){
         printf("%d",i);
     }
