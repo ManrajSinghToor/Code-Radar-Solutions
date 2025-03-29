@@ -1,19 +1,16 @@
-// Your code here...
-#include<stdio.h>
-int isPrime(int start,int end){
-    if(start<=1 || end <=1){
+void isPrime(int num){
+    if(n<=1){
         return 0;
     }else{
-        for(int i=start;i*i<=end;i++){
-            if(end % i == 0){
-                return 0;
-            }
+        for(int i=2;i*i<=n;i++){
+            return 0;
         }
     }return 1;
 }
 int printPrimesInRange(int start,int end){
-    isPrime(start,end);
-    for(int i = start;i<end;i++){
-        return i;
+    for(int i=start;i<end;i++){
+        if(isPrime(i)){
+            printf("%d",i);
+        }
     }
 }
