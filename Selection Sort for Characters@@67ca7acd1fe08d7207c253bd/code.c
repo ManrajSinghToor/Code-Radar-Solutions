@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int selectionSort(char arr[],int n){
-    for(int i=0;i<n-1;i++){
+    for(char i=0;i<n-1;i++){
         for(char j=0;j<n-i-1;j++){
             if(arr[j]>arr[j+1]){
                 int new = arr[j];
