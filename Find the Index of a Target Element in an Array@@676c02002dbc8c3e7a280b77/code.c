@@ -5,7 +5,7 @@ int target(int n,int arr[],int k){
       printf("%d",i);
     }else{
       printf("-1");
-      break;
+      // break;
   }
  }
 }
