@@ -1,24 +1,17 @@
-// Your code here...
 #include<stdio.h>
+int dup(int arr[],int n){
+    for(int i=0;i<n-1;i++){
+        if(arr[i]==arr[i+1]){
+            printf("%d",arr[i]);
+        }
+    }
+}
 int main(){
     int n;
-    scanf("%d\n",&n);
+    scanf("%d ",&n);
     int arr[n];
-    for(int i=0;i<=n;i++){
-        scanf("%d ",&arr[i]);
+    for(int i=0;i<n;i++){
+        scanf("%d",&arr);
     }
-        // int countdup = 0;
-        // int countnon = 0;
-    for(int i=0;i<=n;i++){
-        int countdup = 0;
-        int countnon = 0;
-        for(int j=i+1;j<n;i++){
-            if(arr[i] == arr[j]){
-                countdup++;
-                arr[j] = -1;
-            }else{
-            countnon++;
-           }
-        }    
-    }
+    dup(arr,n);
 }
