@@ -13,13 +13,6 @@ int main(){
             k++;
             break;
         }
-        // if(i==(n-1)){
-        //     if(arr[i]>arr[i-1]){
-        //         printf("%d\n",arr[i]);
-        //     k++;
-        //     break;
-        //     }
-        // }
         }if(k == 0){
             printf("-1");
         }
