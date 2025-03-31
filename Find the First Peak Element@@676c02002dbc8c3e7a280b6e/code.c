@@ -7,14 +7,13 @@ int main(){
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d\n",&arr[i]);
-    if(n>2){
     }for(int i=0;i<n;i++){
         if(arr[i]>arr[i-1] && arr[i]>arr[i+1]){
             printf("%d\n",arr[i]);
             k++;
             break;
-        }}
-        if(k == 0){
+        }
+        }if(k == 0){
             printf("-1");
         }
 return 0;
