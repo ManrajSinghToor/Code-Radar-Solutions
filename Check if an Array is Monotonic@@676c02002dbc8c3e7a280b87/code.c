@@ -1,6 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int sort1(int arr[],int n){
+    if(n>1){
     for(int i=0;i<n-1;i++){
         for(int j=0;j<n-i-1;j++){
             if(arr[j]>arr[j+1]){
@@ -11,7 +12,9 @@ int sort1(int arr[],int n){
         }
     }
 }
+}
 int sort2(int arr[],int n){
+    if(n>1){
     for(int i=0;i<n-1;i++){
         for(int j=0;j<n-i-1;j++){
             if(arr[j]<arr[j+1]){
@@ -21,6 +24,7 @@ int sort2(int arr[],int n){
             }
         }
     }
+}
 }
 int main(){
     int n;
