@@ -20,7 +20,7 @@ int seq(int arr[],int n){
                 count++;
             }
         }
-    }printf("%d",count);
+    }return count;
 }
 int main(){
     int n;
