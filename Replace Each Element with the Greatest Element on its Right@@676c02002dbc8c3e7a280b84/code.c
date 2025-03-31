@@ -18,9 +18,9 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    if(replace(arr,n)){
-        printf("%d",replace);
-    }else{
+    printf((replace(arr,n)))
+        // printf("%d",replace);
+    else{
         printf("No");
     }
     return 0;
