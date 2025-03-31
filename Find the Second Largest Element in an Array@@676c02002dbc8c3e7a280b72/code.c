@@ -20,8 +20,5 @@ int main(){
     }if(srtarr(arr,n)){
         printf("%d",arr[n-1]);
     }
-    else{
-        printf("-1");
-    }
     return 0;
     }
