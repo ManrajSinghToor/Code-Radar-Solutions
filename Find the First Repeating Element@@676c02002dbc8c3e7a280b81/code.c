@@ -21,11 +21,7 @@ int repeat(int arr[],int n){
             }
         }
     }
-  }else if(n<2 || (for(int i=0 ;i<n-1;;i++){
-    if(arr[i]!=arr[i+1]){
-        return -1;
-    }
-  } )){
+  }else if(n<2){
     return -1;
   }
 }
