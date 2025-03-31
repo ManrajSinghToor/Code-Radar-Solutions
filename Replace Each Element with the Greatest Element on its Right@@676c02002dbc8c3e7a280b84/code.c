@@ -20,8 +20,8 @@ int main(){
     }
     printf((replace(arr,n)))
         // printf("%d",replace);
-    else{
-        printf("No");
-    }
+    // else{
+    //     printf("No");
+    // }
     return 0;
 }
