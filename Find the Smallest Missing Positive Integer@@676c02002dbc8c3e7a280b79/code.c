@@ -21,6 +21,8 @@ int small(int arr[],int n){
             }
         }
     }
+  }else{
+    return 1;
   }
 }
 int main(){
