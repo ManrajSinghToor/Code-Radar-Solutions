@@ -21,7 +21,7 @@ int repeat(int arr[],int n){
             }
         }
     }
-  }else if(n<2){
+  }else{
     return -1;
   }
 }
