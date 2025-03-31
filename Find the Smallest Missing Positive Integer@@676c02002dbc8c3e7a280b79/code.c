@@ -11,18 +11,6 @@ void sort(int arr[],int n){
         }
     }
 }
-// int small(int arr[],int n){
-//     sort(arr,n);
-//     if(n>1){
-//     for(int i=0;i<n-1;i++){
-//         if(arr[i]-arr[i-1]>0){
-//         return arr[i];
-//         }
-//   }else{
-//     return 1;
-//   }
-// }
-// }
 int main(){
     int n;
     scanf("%d",&n);
