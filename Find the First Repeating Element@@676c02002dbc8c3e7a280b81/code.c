@@ -17,6 +17,8 @@ int repeat(int arr[],int n){
             if(arr[i]==arr[j]){
                 return arr[i];
                 break;
+            }else if(!(arr[i]==arr[j])){
+                return -1;
             }
         }
     }
