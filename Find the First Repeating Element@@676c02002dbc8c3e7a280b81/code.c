@@ -12,7 +12,7 @@ void sort(int arr[],int n){
     }
 }
 int repeat(int arr[],int n){
-    if(n>2){
+    if(n>=2){
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
             if(arr[i]==arr[j]){
