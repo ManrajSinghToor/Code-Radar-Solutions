@@ -23,7 +23,7 @@ int sort2(int arr[],int n){
                 arr[j+1] = new;
             }
         }
-    }printf("NO");
+    }
 }
 }
 int main(){
