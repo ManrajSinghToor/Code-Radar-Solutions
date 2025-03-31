@@ -16,8 +16,8 @@ int small(int arr[],int n){
     if(n>0){
     for(int i=0;i<n-1;i++){
         for(int j=i+1;j<n;j++){
-            if(arr[j]-arr[i]>1){
-                return arr[j-1];
+            if(arr[i]-arr[j]>1){
+                return arr[i+1];
             }
         }
     }
