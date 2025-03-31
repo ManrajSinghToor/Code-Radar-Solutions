@@ -14,7 +14,7 @@ int srtarr(int arr[],int n){
 int second(int arr[],int n){
     if(n>1){
         if(srtarr(arr,n)){
-            printf("%d",arr[n-2]);
+            printf("%d",arr[n-1]);
         }
     }else{
         return -1;
