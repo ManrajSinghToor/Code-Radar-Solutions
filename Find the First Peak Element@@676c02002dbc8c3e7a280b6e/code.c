@@ -13,7 +13,7 @@ int main(){
             printf("%d\n",arr[i]);
             k++;
             break;
-        }
+        }}
         if(k == 0){
             printf("-1");
         }
