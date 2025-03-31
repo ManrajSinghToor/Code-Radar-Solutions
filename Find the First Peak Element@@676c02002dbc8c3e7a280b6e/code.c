@@ -14,7 +14,6 @@ int main(){
             k++;
             break;
         }
-        }}
         if(k == 0){
             printf("-1");
         }
