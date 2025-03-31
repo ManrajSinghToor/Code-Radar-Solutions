@@ -15,7 +15,7 @@ int second(int arr[],int n){
     if(n>1){
         if(srtarr(arr,n)){
             printf("%d",arr[n-1]);
-        }
+        }return -1;
     }else{
         return -1;
     }
