@@ -17,6 +17,6 @@ int main(){
         }
         }if(k == 0){
             printf("-1");
-        }}
+        }
 return 0;
 }
