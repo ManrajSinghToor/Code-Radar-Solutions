@@ -10,7 +10,7 @@ int sort1(int arr[],int n){
                 arr[j+1] = new;
             }
         }
-    }
+    }return "NO";
 }
 }
 int sort2(int arr[],int n){
@@ -23,7 +23,7 @@ int sort2(int arr[],int n){
                 arr[j+1] = new;
             }
         }
-    }
+    }return "NO";
 }
 }
 int main(){
