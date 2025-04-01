@@ -13,7 +13,7 @@ int facto(int n) {
 int factorialRange(int start,int end){
     for(int i=start;i<=end;i++){
         if(facto(i)){
-            printf("%d\n",facto(i));
+            facto(i);
         }
     }
 }
