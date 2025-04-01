@@ -9,7 +9,9 @@ int facto(int n) {
 
 int factorialRange(int start,int end){
     for(int i=start;i<=end;i++){
-        if(start > 0 && start < end){
+        if(start > 0){
+            printf("%d\n",facto(i));
+        }else if(start < end){
             printf("%d\n",facto(i));
         }else if(start==0){
             printf("1");
