@@ -10,10 +10,8 @@ int factorialRange(int start,int end){
     for(int i=start;i<=end;i++){
         if(fact(i)){
             printf("%d\n",fact(i));
-        }else if(start<0 && start > end){
+        }else if(start<0 || start > end){
             printf("Invalid range");
-        }else{
-
         }
     }
 }
