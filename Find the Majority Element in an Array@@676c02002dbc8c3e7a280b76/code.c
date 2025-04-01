@@ -3,7 +3,7 @@
 int majority(int arr[],int n){
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
-            if(arr[i]==arr[j] && arr[j]!=arr[j+1]){
+            if(arr[i]==arr[j]){
                 return arr[i];
                 break;
             }
@@ -17,5 +17,9 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
-    printf("%d",majority(arr,n));
+    if(majority(arr,n)){
+        printf("%d",majority(arr,n));
+    }else{
+        printf("-1");
+    }
 }
