@@ -4,7 +4,7 @@ int rotate(int arr[],int n,int k){
     for(int i=0;i<n;i++){
         temp[(i+k)%n] = arr[i];
     }for(int j=0;j<n;j++){
-        arr[i] = temp[i];
+        arr[j] = temp[j];
     }
 }
 int main(){
