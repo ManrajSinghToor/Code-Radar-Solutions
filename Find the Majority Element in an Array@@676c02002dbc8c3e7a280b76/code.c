@@ -1,6 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int majority(int arr[],int n){
+    if(n>1){
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
             if(arr[i]==arr[j]){
@@ -9,6 +10,7 @@ int majority(int arr[],int n){
             }
         }
     }
+}
 }
 int main(){
     int n;
