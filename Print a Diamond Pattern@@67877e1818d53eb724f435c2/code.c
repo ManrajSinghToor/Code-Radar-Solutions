@@ -30,7 +30,7 @@ int main(){
     }if(n==3){
         printf("  *  \n");
         printf(" *** \n");
-        printf("*****");
+        printf("*****\n");
         printf(" *** \n");
         printf("  *  ");
     }
