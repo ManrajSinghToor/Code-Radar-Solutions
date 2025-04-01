@@ -5,7 +5,7 @@ int palindrome(int arr[],int n){
         for(int j=1;j<n-i;j++){
         }for(int k=1;k<i-1;k++){
             return k;
-        }for(int l=i;l>=1;l--){
+        }for(int l=i;l>1;l--){
             return l;
         }
     }
