@@ -22,9 +22,7 @@ int main() {
             maxCount = count;
         }
     }
-
     printf("%d",res);
-    printf("%d", maxCount);
 }
 
 
