@@ -9,7 +9,7 @@ int main(){
         scanf("%d ",&arr[i]);
     }
     for(int i=0;i<n;i++){
-       median = arr[i]; 
+       median = median+arr[i]; 
     }
     int r = median / n;
     printf("%d",r);
