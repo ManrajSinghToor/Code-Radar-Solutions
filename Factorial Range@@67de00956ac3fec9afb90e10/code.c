@@ -9,12 +9,11 @@ int facto(int n) {
 
 int factorialRange(int start,int end){
     for(int i=start;i<=end;i++){
-        if(start>0 || start < end){
-        if(facto(i)){
+        if(start > 0 || start < end){
             printf("%d\n",facto(i));
         }else{
             printf("Invalid range");
             break;
         }
-    }}
+    }
 }
