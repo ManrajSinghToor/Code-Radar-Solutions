@@ -1,7 +1,7 @@
 #include <stdio.h>
 void maxFrequency(int arr[], int n) {
     int maxCount = 0;
-    int min = arr[0];
+    int res = arr[0];
 
     for (int i = 0; i < n; i++) {
         int count = 0;
@@ -12,12 +12,12 @@ void maxFrequency(int arr[], int n) {
         }
 
         if (count > maxCount) {
-            min = arr[i];
+            res = arr[i];
             maxCount = count;
         }
     }
 
-    printf("%d",min);
+    printf("%d",res);
     printf("%d", maxCount);
 }
 
