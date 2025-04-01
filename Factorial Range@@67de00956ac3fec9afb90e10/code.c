@@ -14,6 +14,6 @@ int factorialRange(int start,int end){
             var = 1;
         }
     }if(!var){
-        printf()
+        printf("-1");
     }
 }
