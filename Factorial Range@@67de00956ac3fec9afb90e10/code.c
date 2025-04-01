@@ -2,7 +2,7 @@
 int facto(int n) {
     int fact = 1;
     for (int i = 1; i <= n; i++) {
-        fact ==i*fact(i-1);
+        fact ==i*facto(i-1);
     }
     return fact;
 }
