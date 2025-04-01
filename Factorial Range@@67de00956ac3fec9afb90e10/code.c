@@ -1,7 +1,7 @@
 #include<stdio.h>
 int facto(int n) {
     if(n<0){
-        printf("Invalid range");
+        return "Invalid range";
     }
     else if(n<1){
         return 1;
