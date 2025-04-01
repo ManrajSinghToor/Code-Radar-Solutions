@@ -1,4 +1,5 @@
 // Your code here...
+#include<stdio.h>
 int fibonacci(int n) {
     int fib[n];
     fib[0] = 0;
@@ -8,6 +9,6 @@ int fibonacci(int n) {
     }
     for (int i = 0; i < n; i++) {
         printf("%d ", fib[i]);
-    }
+    }
 }
 
