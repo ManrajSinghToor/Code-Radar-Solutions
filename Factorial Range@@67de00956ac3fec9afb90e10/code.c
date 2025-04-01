@@ -1,3 +1,4 @@
+#include<stdio.h>
 void fact(int n){
     if(n<1){
         return 1;
