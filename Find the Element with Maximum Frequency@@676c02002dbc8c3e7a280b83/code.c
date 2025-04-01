@@ -17,7 +17,7 @@ void maxFrequency(int arr[], int n) {
         }
     }
 
-    printf("%d",res);
+    printf("%d",min);
     printf("%d", maxCount);
 }
 
