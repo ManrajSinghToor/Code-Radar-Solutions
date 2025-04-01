@@ -1,5 +1,11 @@
 #include <stdio.h>
-void maxFrequency(int arr[], int n) {
+int main() {
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+    for(int i=0;i<n;i++){
+        scanf("%d",&arr[i]);
+    }
     int maxCount = 0;
     int res = arr[0];
 
@@ -20,4 +26,5 @@ void maxFrequency(int arr[], int n) {
     printf("%d",res);
     printf("%d", maxCount);
 }
+
 
