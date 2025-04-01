@@ -1,26 +1,21 @@
+// Your code here...
 #include<stdio.h>
-int main() {
+int main(){
     int n;
-    scanf("%d",&n);
+    scanf("%d\n",&n);
     int arr[n];
+    for(int i=0;i<=n;i++){
+        scanf("%d ",&arr[i]);
+    }
     for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
-    }
-    int maxCount = 0;
-    int res = arr[0];
-
-    for (int i = 0; i < n; i++) {
-        int count = 0;
-        for (int j = 0; j < n; j++) {
-            if (arr[i] == arr[j]) {
-                count++;
+        int freq = 1;
+        for(int j=i+1;j<n;j++){
+            if(arr[i] == arr[j]){
+                freq++;
+                arr[j] = -1;
             }
-        }
-
-        if (count > maxCount) {
-            res = arr[i];
-            maxCount = count;
+        }if(arr[i] != -1){
+            printf("%d",arr[i]);
         }
     }
-    printf("%d",res);
 }
