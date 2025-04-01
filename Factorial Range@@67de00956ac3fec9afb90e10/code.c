@@ -1,12 +1,12 @@
 #include<stdio.h>
 int facto(int n) {
     if(n<0){
-        return "Invalid range";
+        printf("Invalid range");
     }
     else if(n<1){
-        return 1;
+        printf("1");
     }else{
-        return n*facto(n-1);
+        printf("%d",n*facto(n-1));
     }
 }
 
