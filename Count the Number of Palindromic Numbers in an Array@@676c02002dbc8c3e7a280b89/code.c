@@ -2,7 +2,7 @@
 int isPalindrome(int num) {
     int rev = 0;
     int temp = num;
-    while (temp != 0) {
+    while (temp != 0||temp > 0) {
         rev = rev * 10 + temp % 10;
         temp /= 10;
     }
