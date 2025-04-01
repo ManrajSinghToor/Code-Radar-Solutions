@@ -9,7 +9,6 @@ int main(){
     int m;
     scanf("%d",&m); 
 
-    // int found = 0;
     for(int i = 0; i < n-1;i++){
         if(i > 0 && arr[i] == arr[i+1]){
             continue;
@@ -17,7 +16,6 @@ int main(){
         for(int j = i+1; j < n; j++){
             if(arr[i]+arr[j] == m){
                 printf("%d %d\n",arr[i],arr[j]);
-                // found = 1;
                 break;
             }
         }
