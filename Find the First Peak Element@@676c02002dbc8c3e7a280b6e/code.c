@@ -15,7 +15,7 @@ int main(){
             break;
         }
         }if(k == 0){
-            printf("-1");
+            printf("%d",n);
         }
 return 0;
 }
