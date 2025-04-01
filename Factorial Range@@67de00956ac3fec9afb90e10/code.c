@@ -8,11 +8,9 @@ int facto(int n) {
 }
 
 int factorialRange(int start,int end){
-    int var = 0;
     for(int i=start;i<end;i++){
         if(facto(i)){
-            printf("%d\n",i);
-            var = 1;
+            printf("%d\n",fact(i));
         }
     }if(!var){
         printf("-1");
