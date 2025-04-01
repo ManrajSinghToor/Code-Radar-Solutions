@@ -18,7 +18,7 @@ int main() {
     }
     int count = 0;
     for (int i = 0; i < n; i++) {
-        if (isPalindrome(arr[i])&&arr[i]>0) {
+        if (isPalindrome(arr[i])&&arr[i]>=0) {
             count++;
         }
     }
