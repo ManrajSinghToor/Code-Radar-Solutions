@@ -1,9 +1,10 @@
 #include<stdio.h>
 int facto(int n) {
-    if(n<1){
-        return 1;
-    }else if(n<0){
+    if(n<0){
         printf("Invalid range");
+    }
+    else if(n<1){
+        return 1;
     }else{
         return n*facto(n-1);
     }
