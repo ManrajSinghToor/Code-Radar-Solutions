@@ -11,7 +11,7 @@ int factorialRange(int start,int end){
     for(int i=start;i<end;i++){
         if(fact(i)){
             printf("%d",i);
-            var = 1
+            var = 1;
         }
     }if(!var){
         printf()
