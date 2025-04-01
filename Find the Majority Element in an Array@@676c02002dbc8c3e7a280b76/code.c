@@ -9,7 +9,9 @@ int majority(int arr[],int n){
                 break;
             }
         }
-    }
+    }return -1;
+}else{
+    return -1;
 }
 }
 int main(){
