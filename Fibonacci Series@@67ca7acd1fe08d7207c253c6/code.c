@@ -1,10 +1,13 @@
 // Your code here...
-int fibonacciSeries(int n){
-    if(n<2){
-        return 1;
-    }else{
-        return fibonacciSeries(n-1)+fibonacciSeries(n-2);
-    }return 0;
-
+int fibonacci(int n) {
+    int fib[n];
+    fib[0] = 0;
+    fib[1] = 1;
+    for (int i = 2; i < n; i++) {
+        fib[i] = fib[i - 1] + fib[i - 2];
+    }
+    for (int i = 0; i < n; i++) {
+        printf("%d ", fib[i]);
+    }
 }
 
