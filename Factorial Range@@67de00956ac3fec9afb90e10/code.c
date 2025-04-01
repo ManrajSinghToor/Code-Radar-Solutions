@@ -12,7 +12,5 @@ int factorialRange(int start,int end){
         if(facto(i)){
             printf("%d\n",facto(i));
         }
-    }if(!var){
-        printf("-1");
     }
 }
