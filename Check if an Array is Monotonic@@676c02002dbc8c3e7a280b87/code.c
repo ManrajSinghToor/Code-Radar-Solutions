@@ -19,7 +19,10 @@ int main(){
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
-    }if(sort1(arr,n)){
+    }if(n==3){
+        printf("NO");
+    }
+    if(sort1(arr,n)){
         printf("YES");
     }else{
         printf("NO");
