@@ -2,10 +2,10 @@
 int binarySearch(int arr[],int n,int target){
     for(int i=0;i<n-1;i++){
         if(arr[i]==target){
-            printf("%d\n",i);
+            return i;
             break;
         }else{
-            printf("-1");
+            return -1;
             break;
         }
     }
