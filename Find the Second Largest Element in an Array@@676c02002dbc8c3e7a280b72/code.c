@@ -12,7 +12,12 @@ int srtarr(int arr[],int n){
     }
 }
 int second(int arr[],int n){
+    if(n>1){
+        for(int i=0;i<n;i++){
+        if(arr[i]!=arr[i+1])
             printf("%d",arr[n-1]);
+        }
+    }
 }
 int main(){
     int n;
