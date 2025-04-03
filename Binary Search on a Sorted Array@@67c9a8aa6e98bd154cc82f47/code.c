@@ -6,6 +6,7 @@ int binarySearch(int arr[],int n,int target){
             break;
         }else{
             printf("-1");
+            break;
         }
     }
 }
