@@ -19,8 +19,6 @@ int main(){
     }if(n>2){
     if(majority(arr,n)){
         printf("%d",majority(arr,n));
-    }else{
-        printf("-1");
     }
   }return -1;
 }
