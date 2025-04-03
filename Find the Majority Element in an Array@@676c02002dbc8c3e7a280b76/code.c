@@ -16,9 +16,8 @@ int main(){
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d ",&arr[i]);
-    }if(n>2){
+    }
     if(majority(arr,n)){
         printf("%d",majority(arr,n));
-    }
-  }return -1;
+    }return -1;
 }
