@@ -21,7 +21,7 @@ int main(){
         scanf("%d",&arr[i]);
     }if(n==3){
         printf("NO");
-        break;
+        return 0;
     }
     if(sort1(arr,n)){
         printf("YES");
