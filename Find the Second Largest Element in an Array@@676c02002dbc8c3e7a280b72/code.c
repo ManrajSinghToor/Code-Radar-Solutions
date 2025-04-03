@@ -12,7 +12,7 @@ int srtarr(int arr[],int n){
     }
 }
 int second(int arr[],int n){
-            printf("%d",arr[n-2]);
+            printf("%d",arr[n-1]);
 }
 int main(){
     int n;
