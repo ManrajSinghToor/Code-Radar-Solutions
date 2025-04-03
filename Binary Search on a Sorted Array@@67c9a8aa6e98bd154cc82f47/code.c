@@ -1,6 +1,6 @@
 // Your code here...
 int binarySearch(int arr[],int n,int target){
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n-1;i++){
         if(arr[i]==target){
             printf("%d\n",i);
             break;
